@@ -25,19 +25,32 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Deniz Pandar</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-
-        <nav>
-            <ul id="menu">
-                <li><a href="#home" class="active menu">Home</a></li>
-                <li><a href="#about" class="menu">About</a></li>
-                <li><a href="#portfolio" class="menu">Portfolio</a></li>
-                <li><a href="#contact" class="menu">Contact</a></li>
-            </ul>
+        <!-- Bootstrap Navbar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Deniz Pandar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- Main Content -->
