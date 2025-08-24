@@ -55,18 +55,42 @@
     </header>
     <!-- Main Content -->
     <main>
-         <!-- section with profile image and greeting from putting it together lessons-->
+        <!-- section with profile image and greeting from putting it together lessons-->
+        <!-- Profile section links to #home href in navbar -->
         <section id="profile" class="container">
-             <!-- section with profile image -->
-            <div class="col-12 text-center">
-                <h1 class="display-4 my-4" id="name">Deniz Pandar</h1>
-                 <!-- mb-5 gives extra margin spacing under subheading -->
-                <h2 class="display-6 mb-5" id="job-int">Jr. Full Stack Developer</h2>
-                <p id="greeting">
-                    Hello! I'm Deniz Pandar.
-                    Currently focused on <strong>full-stack development</strong> while exploring different areas of <i>
-                        software,</i> including <i>AI</i>. Eager to learn, build, and grow in the tech industry.
-                </p>
+            <div class="row align-items-center g-4">
+                <!-- Column for profile image -->
+                <!-- col-12: full width on small screens, col-lg-6: half width on large screens -->
+                <!-- order-1: first on small screens, order-lg-2: second on large screens-->
+                <!-- text-center: center-align text/images -->
+                <div class="col-12 col-lg-6 order-1 order-lg-2 text-center">
+                    <!-- img-fluid class makes the image responsive to its container -->
+                    <!-- rounded-circle: makes image circular -->
+                    <!-- shadow: adds a subtle shadow effect -->
+                    <img src="assets/images/profile-picture.jpeg" class="img-fluid rounded-circle shadow"
+                        alt="Deniz Pandar">
+                </div>
+
+                <!-- Column for text content -->
+                <!-- col-12: full width on small screens, col-lg-6: half width on large screens -->
+                <!-- order-2: second on small screens, order-lg-1: first on large screens -->
+                <!-- text-center: center text on small screens, text-lg-start: left-align on large screens -->
+                <div class="col-12 col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+                    <!-- display-4: large heading style -->
+                    <!-- my-4 used to add top and bottom margin to heading -->
+                    <h1 class="display-4 my-4" id="name">Deniz Pandar</h1>
+                    <!-- display-6: subheading style -->
+                    <!-- mb-5 used to add margin under text -->
+                    <h2 class="display-6 mb-5" id="job-int">Jr. Full Stack Developer</h2>
+                    <p id="greeting">
+                        Hello! I'm Deniz Pandar.
+                        Currently focused on <strong>full-stack development</strong> while exploring different areas of
+                        <i>software,</i> including <i>AI</i>. Eager to learn, build, and grow in the tech industry.
+                    </p>
+                    <!-- me-2: adds right margin to the first button -->
+                    <button class="btn btn-primary me-2">Get In Touch</button>
+                    <button class="btn btn-outline-primary">View My Work</button>
+                </div>
             </div>
         </section>
         <section>
