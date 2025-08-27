@@ -220,42 +220,54 @@
         </section>
     </main>
     <!-- Footer -->
-    <!-- mt-auto added to push footer to the bottom of the page -->
+    <!-- mt-auto added to push footer to the bottom of the page when using flexbox layout -->
     <footer id="contact" class="container mt-auto">
         <div class="row">
+            <!-- Footer Title -->
             <div class="col-12 text-center my-4">
                 <h2 class="display-5">Contact</h2>
             </div>
-            <!-- Contact info -->
+            <!-- Contact information Column -->
             <div class="col-12 col-md-6 col-xl-4">
+                <!-- Email address with icon -->
                 <p><i class="fa-solid fa-at"></i> denizpandar@gmail.com</p>
+                <!-- Phone number with icon -->
                 <p><i class="fa-solid fa-mobile-screen"></i> 083 856 00 65</p>
             </div>
+            <!-- Contact Form Column -->
+            <!-- On medium screens it takes 10 columns, on large screens 8 columns -->
             <div class="col-12 col-md-10 col-lg-8 mb-4">
-                <!-- form was taken from putting it together lessons-->
+                <!-- Contact form (inspired by "Putting it together" lessons) -->
+                <!-- 'row g-3' creates a grid with gutters (spacing between inputs) -->
+                <!-- 'sharp-corners' is a custom class (likely removing Bootstrap’s rounded corners) -->
                 <form class="row g-3 sharp-corners">
+                    <!-- Full Name input field -->
                     <div class="col-lg-4">
                         <label for="full-name" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="full-name">
                     </div>
+                    <!-- Phone number input field -->
                     <div class="col-lg-4">
                         <label for="phonenumber" class="form-label">Phone number</label>
                         <input type="number" class="form-control" id="phonenumber">
                     </div>
+                    <!-- Email input field -->
                     <div class="col-lg-4">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email">
                     </div>
+                    <!-- Message textarea -->
                     <div class="col-12">
                         <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" rows="3"></textarea>
                     </div>
+                    <!-- Submit button -->
+                    <!-- 'custom-button' is an additional class (for custom styling if defined in CSS) -->
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary custom-button">Send</button>
                     </div>
                 </form>
             </div>
-
             © 2025 Deniz Pandar. All rights reserved.
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
