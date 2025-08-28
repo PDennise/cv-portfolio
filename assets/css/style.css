@@ -17,6 +17,12 @@
     box-sizing: border-box;
 }
 
+/* Logo styles:
+   - Uses Tinos font
+   - Extra large font size
+   - Centered with auto margin
+   - White background and blue text (#004182)
+   - Very bold font weight for strong emphasis */
 #logo {
     font-family: "Tinos", sans-serif;
     font-size: xx-large;
@@ -25,3 +31,4 @@
     color: #004182;
     font-weight: 1000;
 }
+
