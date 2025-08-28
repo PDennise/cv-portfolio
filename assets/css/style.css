@@ -17,6 +17,22 @@
     box-sizing: border-box;
 }
 
+/* Main content styles:
+   - Tinos font family
+   - Light gray background (#fcfcfd)
+   - Dark gray text (#272d32)
+   - Inner padding for spacing
+   - Rounded corners
+   - Subtle box-shadow for depth */
+main {
+    font-family: "Tinos", sans-serif;
+    background-color: #fcfcfd;
+    color: #272d32;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
 /* Logo styles:
    - Uses Tinos font
    - Extra large font size
