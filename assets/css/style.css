@@ -36,13 +36,11 @@ main {
 /* Logo styles:
    - Uses Tinos font
    - Extra large font size
-   - Centered with auto margin
    - White background and blue text (#004182)
    - Very bold font weight for strong emphasis */
 #logo {
     font-family: "Tinos", sans-serif;
     font-size: xx-large;
-    margin: auto;
     background-color: #ffffff;
     color: #004182;
     font-weight: 1000;
