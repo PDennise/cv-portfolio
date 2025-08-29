@@ -17,6 +17,19 @@
     box-sizing: border-box;
 }
 
+/* HTML & BODY SETUP
+   Ensure the page takes full height */
+html, body {
+    height: 100%;       /* Make HTML and BODY take full viewport height */
+    margin: 0;          /* Remove default margin */
+}
+
+/* BODY FLEX CONTAINER
+   Arrange header, main, and footer vertically */
+body {
+    display: flex;           /* Use flexbox for layout */
+    flex-direction: column;  /* Stack elements vertically */
+}
 /* Main content styles:
    - Tinos font family
    - Light gray background (#fcfcfd)
@@ -79,4 +92,12 @@ img {
 /* Greeting text styling */
 #greeting {
     font-size:larger;           /* Increase the font size for the greeting text */
+}
+
+/* FOOTER
+   Always stays at the bottom */
+footer {
+    text-align: center;           /* Center text */
+    padding: 20px 0;              /* Vertical spacing */
+    background-color: #ffffff;  /* White background */
 }
