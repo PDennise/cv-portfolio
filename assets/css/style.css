@@ -64,3 +64,19 @@ main {
     color: white;                   /* Keep text color white */
     border-color: steelblue;        /* Border color changes with background */
 }
+
+/* Profile section spacing */
+#profile {
+    margin-top: 8%;             /* Space above the profile section */
+    margin-bottom: 10%;         /* Space below the profile section */
+}
+
+/* Image styling */
+img {
+    width: 60%;                  /* Set image width to 60% of its container */
+}
+
+/* Greeting text styling */
+#greeting {
+    font-size:larger;           /* Increase the font size for the greeting text */
+}
