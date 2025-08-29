@@ -46,3 +46,21 @@ main {
     font-weight: 1000;
 }
 
+/* Common button style */
+.btn-custom {
+    background-color: #004182;  /* Base background color */
+    color: white;               /* Text color */
+    border-color: #004182;      /* Border color matching background */
+    border-radius: 10px;          /* Rounded corners */
+    margin-top: 10px;             /* Space above each button */
+    padding: 10px 20px;           /* Button padding (vertical | horizontal) */
+    cursor: pointer;              /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s;  /* Smooth transition for hover */
+}
+
+/* Hover effect for the button */
+.btn-custom:hover {
+    background-color: steelblue;    /* Softer blue hover */
+    color: white;                   /* Keep text color white */
+    border-color: steelblue;        /* Border color changes with background */
+}
