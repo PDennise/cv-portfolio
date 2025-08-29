@@ -101,3 +101,36 @@ footer {
     padding: 20px 0;              /* Vertical spacing */
     background-color: #ffffff;  /* White background */
 }
+
+/* Sets the font size for paragraphs inside the "about" section */
+#about p {
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 10px;   /* Adds spacing above all h1 headings */
+    padding: 2rem;      /* Adds padding inside h1 for spacing */
+}
+
+small,
+h3,
+ul {
+    padding-top: 5px;     /* Adds space above small text, h3 headings, and unordered lists */
+    padding-bottom: 5px;  /* Adds space below small text, h3 headings, and unordered lists */
+}
+
+.skills ul,
+.experiences ul {
+  list-style: none;   /* Removes default bullet points */
+  padding-left: 0;    /* Removes default left padding */
+}
+
+ul li {
+    font-size: 18px;  /* Sets font size for all list items */
+}
+
+/* Increases font size for <small> elements inside .job 
+(overrides the default "small" style, which usually makes text smaller) */
+.job small {
+    font-size: 15px;
+}
