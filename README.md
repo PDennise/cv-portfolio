@@ -55,3 +55,13 @@ The website is divided into several sections for clarity and easy navigation:
 ## How to Access
 The portfolio is publicly accessible online:
 [https://pdennise.github.io/denizpandar_portfolio/](https://pdennise.github.io/denizpandar_portfolio/)
+
+Users can navigate the portfolio using the top menu, explore projects in detail, and contact Deniz through the contact form.
+
+## Learning Outcomes
+By completing this project, Deniz achieved the following:
+- Gained practical experience in front-end web development.
+- Learned to structure content effectively for user experience.
+- Developed skills in responsive and adaptive web design.
+- Implemented project hosting and version control using GitHub and GitHub Pages.
+- Improved personal branding through online professional presentation.
