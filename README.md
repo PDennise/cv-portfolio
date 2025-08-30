@@ -39,3 +39,10 @@ The website is divided into several sections for clarity and easy navigation:
 
 6. **Footer**
 - Includes copyright information and links for easy navigation.
+
+## Features
+- **Responsive Design:** Compatible with desktops, tablets, and mobile devices.
+- **Navigation Bar:** Smooth scrolling between sections with fixed top navigation.
+- **Call-to-Action Buttons:** Highlight important actions such as viewing projects or contacting.
+- **Semantic HTML:** Proper use of HTML5 elements for better accessibility and SEO.
+- **Visual Consistency:** Cohesive color scheme, typography, and spacing for professional appearance.
