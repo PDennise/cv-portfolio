@@ -46,6 +46,11 @@ main {
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
+/* White background as specified in color scheme */
+#navbar {
+    background-color: #ffffff; 
+}
+
 /* Logo styles:
    - Uses Tinos font
    - Extra large font size
