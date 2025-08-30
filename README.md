@@ -46,3 +46,8 @@ The website is divided into several sections for clarity and easy navigation:
 - **Call-to-Action Buttons:** Highlight important actions such as viewing projects or contacting.
 - **Semantic HTML:** Proper use of HTML5 elements for better accessibility and SEO.
 - **Visual Consistency:** Cohesive color scheme, typography, and spacing for professional appearance.
+
+## Technologies Used
+- **HTML5:** Structuring content semantically.
+- **CSS3 & Bootstrap 5:** Styling and responsive layout design.
+- **GitHub Pages:** Hosting the portfolio online for free.
