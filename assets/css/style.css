@@ -100,6 +100,24 @@ main {
     color: white;                 /* Keep text color white */
     border-color: steelblue;      /* Match border with hover background */
 }
+/* Contact page specific buttons 
+   - Target only .btn-custom inside #contact 
+   - Set background color, text color, border radius, padding, and smooth transition */
+#portfolio .btn-custom {
+    background-color: #004182;  /* Base blue color */
+    color: white;               /* Text color */
+    border-color: #004182;      /* Border color matching background */
+    border-radius: 10px;          /* Rounded corners */
+    padding: 10px 20px;           /* Vertical and horizontal padding */
+    transition: background-color 0.3s, color 0.3s;  /* Smooth hover transition */
+}
+
+/* Hover effect for contact buttons */
+#portfolio .btn-custom:hover {
+    background-color: steelblue;  /* Lighter blue on hover */
+    color: white;                 /* Keep text color white */
+    border-color: steelblue;      /* Match border with hover background */
+}
 
 /* Profile section spacing */
 #profile {
