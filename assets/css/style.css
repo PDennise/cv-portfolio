@@ -222,6 +222,10 @@ ul li {
     border-radius: 50%;   /* Make image circular */
 }
 
+.social-links {
+    font-size: 32px;
+}
+
 /* Responsive adjustment for smaller screens (mobile) 
    - Reduce logo size to fit smaller viewport */
 @media (max-width: 768px) {
