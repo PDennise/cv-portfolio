@@ -51,3 +51,7 @@ The website is divided into several sections for clarity and easy navigation:
 - **HTML5:** Structuring content semantically.
 - **CSS3 & Bootstrap 5:** Styling and responsive layout design.
 - **GitHub Pages:** Hosting the portfolio online for free.
+
+## How to Access
+The portfolio is publicly accessible online:
+[https://pdennise.github.io/denizpandar_portfolio/](https://pdennise.github.io/denizpandar_portfolio/)
