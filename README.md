@@ -5,7 +5,7 @@
 ## Project Overview
 This is the personal portfolio website of **Deniz Pandar**, a Junior Full Stack Developer. The main purpose of this project is to provide a **professional online presence** that showcases Deniz’s skills, experiences, and projects in a structured and visually appealing manner.
 
-The portfolio serves as both a **personal branding tool** and a demonstration of practical web development skills including HTML, CSS, JavaScript, and responsive design principles.
+The portfolio serves as both a **personal branding tool** and a demonstration of practical web development skills including HTML, CSS, and responsive design principles.
 
 ## Objectives
 The key objectives of this portfolio project are:
@@ -20,6 +20,8 @@ The website is divided into several sections for clarity and easy navigation:
 1. **Home / Introduction**
 - Provides a short introduction and a welcoming message.
 - Features call-to-action buttons to navigate to portfolio and contact sections.
+
+![About Page](images/about.jpeg)
 
 2. **About Me**
 - Includes personal background, education, and career goals.
