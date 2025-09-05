@@ -81,19 +81,19 @@
                     method="POST" accept="application/json">
                     <div class="col-lg-4">
                         <label for="full-name" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" id="full-name">
+                        <input type="text" class="form-control" id="full-name" name="full-name" required>
                     </div>
                     <div class="col-lg-4">
                         <label for="phonenumber" class="form-label">Phone number</label>
-                        <input type="number" class="form-control" id="phonenumber">
+                        <input type="number" class="form-control" id="phonenumber" name="phonenumber" >
                     </div>
                     <div class="col-lg-4">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email">
+                        <input type="email" class="form-control" id="email" name="email" required>
                     </div>
                     <div class="col-12">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary btn-custom">Send</button>
@@ -118,42 +118,6 @@
     <!-- This paragraph will display success or error messages -->
     <p id="formResponse" style="margin-top:10px; font-weight:bold;"></p>
 
-    <script>
-        // Select form and message container
-        const form = document.getElementById("contactForm");
-        const responseMsg = document.getElementById("formResponse");
-
-        // Listen for form submission
-        form.addEventListener("submit", async function (event) {
-            event.preventDefault(); // Prevent page refresh
-
-            // Convert form data into a JSON object
-            const formData = new FormData(form);
-            const object = Object.fromEntries(formData.entries());
-
-            try {
-                // Send form data as JSON
-                const res = await fetch(form.action, {
-                    method: form.method,
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(object)
-                });
-
-                // Handle response
-                if (res.ok) {
-                    responseMsg.textContent = "✅ Message sent successfully!";
-                    responseMsg.style.color = "green";
-                    form.reset(); // Clear form fields
-                } else {
-                    responseMsg.textContent = "❌ Oops, something went wrong.";
-                    responseMsg.style.color = "red";
-                }
-            } catch (err) {
-                responseMsg.textContent = "⚠️ Network error, please try again.";
-                responseMsg.style.color = "red";
-            }
-        });
-    </script>
 </body>
 
 
