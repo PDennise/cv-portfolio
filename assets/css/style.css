@@ -51,6 +51,32 @@ main {
     background-color: #ffffff; 
 }
 
+/* General link Style */
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+
+}
+
+/* Active link style */
+a.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.1px;
+    width: 0; 
+    height: 3px; 
+    background: linear-gradient(to right, darkblue, blue); 
+    transition: width 0.4s ease;
+}
+
+/* Hover or active shows the underline effect */
+a.active:hover::after,
+a.active::after {
+    width: 100%; /* left to right */
+}
+
 /* Logo styles:
    - Uses Tinos font
    - Extra large font size
