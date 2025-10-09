@@ -201,7 +201,7 @@ footer {
 
 h1 {
     margin-top: 10px;   /* Adds spacing above all h1 headings */
-    padding: 2rem;      /* Adds padding inside h1 for spacing */
+    padding-left: 0rem;      /* Adds padding inside h1 for spacing */
 }
 
 small,
