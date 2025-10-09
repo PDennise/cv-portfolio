@@ -53,10 +53,9 @@ main {
 
 /* General link Style */
 a {
-    text-decoration: none;
-    color: black;
-    position: relative;
-
+    text-decoration: none; /* Removes the default underline from links */
+    color: black;  /* Makes the link text color you choose */
+    position: relative; /* Allows you to position child elements (like ::after) absolutely inside the link */
 }
 
 /* Active link style */
