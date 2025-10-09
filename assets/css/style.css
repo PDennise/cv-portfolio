@@ -60,10 +60,10 @@ a {
 
 a.active,
 a.hover {
-    font-weight: 500;
-    background: linear-gradient(to right, darkblue, blue);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: 500; /* Slightly bold text */
+    background: linear-gradient(to right, darkblue, blue); /* Gradient background */
+    background-clip: text;  /* Clips gradient to text */
+    -webkit-text-fill-color: transparent; /* Makes text color transparent to show the gradient */
 }
 
 /* Active link style */
