@@ -58,6 +58,14 @@ a {
     position: relative; /* Allows you to position child elements (like ::after) absolutely inside the link */
 }
 
+a.active,
+a.hover {
+    font-weight: 500;
+    background: linear-gradient(to right, darkblue, blue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* Active link style */
 a.active::after {
     content: '';
