@@ -80,23 +80,26 @@
                 <form id="contact-form" class="row g-3 sharp-corners" action="https://formspree.io/f/mqadpool"
                     method="POST" accept="application/json">
                     <div class="col-lg-4">
-                        <label for="full-name" class="form-label">Full Name</label>
+                        <label for="full-name" class="form-label">Full Name <span class="text-danger">*</span></label>
                         <input type="text" class="form-control" id="full-name" name="full-name" required>
                     </div>
                     <div class="col-lg-4">
-                        <label for="phonenumber" class="form-label">Phone number</label>
-                        <input type="number" class="form-control" id="phonenumber" name="phonenumber" >
+                        <label for="phonenumber" class="form-label">Phone number <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="phonenumber" name="phonenumber" required>
                     </div>
                     <div class="col-lg-4">
-                        <label for="email" class="form-label">Email</label>
+                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
                         <input type="email" class="form-control" id="email" name="email" required>
                     </div>
                     <div class="col-12">
-                        <label for="message" class="form-label">Message</label>
+                        <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
                         <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary btn-custom">Send</button>
+                    </div>
+                    <div class="col-12">
+                        <small class="text-danger">* All fields are required</small>
                     </div>
                 </form>
             </div>
@@ -114,7 +117,7 @@
         crossorigin="anonymous"></script>
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
-    
+
     <!-- This paragraph will display success or error messages -->
     <p id="formResponse" style="margin-top:10px; font-weight:bold;"></p>
 
