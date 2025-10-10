@@ -33,7 +33,13 @@ The website is divided into several sections for clarity and easy navigation:
 The navigation bar is located at the top of the website and allows users to quickly move to different sections such as Home, About, Portfolio, and Contact.
 The active link is highlighted with an underline effect, so users always know which section they are viewing.
 On smaller screens, the navigation menu adapts to a mobile-friendly layout.
+
 ![navbar screenshot](/assets/images/navbar-screnshot.png)
+
+#### Footer
+Includes copyright information.
+
+![footer screenshot](/assets/images/footer-screenshot.png)
 
 1. **Home / Introduction**
 - Provides a short introduction and a welcoming message.
@@ -55,8 +61,7 @@ On smaller screens, the navigation menu adapts to a mobile-friendly layout.
 - Contains a contact form for direct messages.
 - Provides links to social media and professional networks.
 
-6. **Footer**
-- Includes copyright information and links for easy navigation.
+
 
 ## Features
 - **Responsive Design:** Compatible with desktops, tablets, and mobile devices.
