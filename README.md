@@ -100,9 +100,9 @@ Cross-browser testing was conducted on Chrome and Safari, confirming consistent 
 - Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
 ### Fixed Bugs
-- Corrected an improperly closed <section> tag that was causing HTML validation errors.
-- Fixed an unclosed <div class="row"> element to ensure proper structure and layout across pages.
-- Removed invalid accept attribute from <form>; now correctly submits via POST to Formspree.
+- Corrected an improperly closed ```<section>```tag that was causing HTML validation errors.
+- Fixed an unclosed ```<div class="row">``` element to ensure proper structure and layout across pages.
+- Removed invalid accept attribute from ```<form>```; now correctly submits via POST to Formspree.
 
 # Deployment
 1. Go to the repository’s Settings tab.
@@ -119,9 +119,12 @@ The live link can be found here - https://pdennise.github.io/cv-portfolio/index.
 
 ### Resources & Assistance
 - README structure and formatting inspired by:
-        - [Horizon Photo Repository](https://github.com/Ri-Dearg/horizon-photo/blob/main/README.md)
-        - [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
-        - Additional support and content assistance provided by **ChatGPT (OpenAI)**.
+    
+    - [Horizon Photo Repository](https://github.com/Ri-Dearg/horizon-photo/blob/main/README.md)
+    
+    - [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+    
+    - Additional support and content assistance provided by **ChatGPT (OpenAI)**.
 
 ### Media
 - The images used on the portfolio page are from Open Source site.
