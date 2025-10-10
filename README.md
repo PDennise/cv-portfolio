@@ -64,6 +64,11 @@ Includes copyright information.
 - Provides links to social media and professional networks.
 
 
+![contact](/assets/images/contact-screenshot.png)
+
+- After submitting contact information, it shows the form submission page.
+
+![submission page](/assets/images/form.submit-screenshot.png)
 
 ## Features
 - **Responsive Design:** Compatible with desktops, tablets, and mobile devices.
