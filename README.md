@@ -26,9 +26,14 @@ This portfolio was created to **introduce myself as a Junior Full Stack Develope
 You can find the wireframes at the link below:
 https://drive.google.com/drive/folders/1bkjWqt4qddI6FPUSA6QdILT3kJHya7X8?usp=share_link
 
-
 ## Website Structure
 The website is divided into several sections for clarity and easy navigation:
+
+#### Navbar
+The navigation bar is located at the top of the website and allows users to quickly move to different sections such as Home, About, Portfolio, and Contact.
+The active link is highlighted with an underline effect, so users always know which section they are viewing.
+On smaller screens, the navigation menu adapts to a mobile-friendly layout.
+![navbar screenshot](/assets/images/navbar-screnshot.png)
 
 1. **Home / Introduction**
 - Provides a short introduction and a welcoming message.
