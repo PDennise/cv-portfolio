@@ -46,9 +46,12 @@ Includes copyright information.
 - Features call-to-action buttons to navigate to portfolio and contact sections.
 
 ![home page](/assets/images/home-page-laptop.png)
+
 2. **About Me**
 - Includes personal background, education, and career goals.
 - Highlights relevant skills and strengths in web development.
+
+![about me](/assets/images/about-screenshot.png)
 
 3. **Skills**
 - Lists technical skills including HTML5, CSS3, JavaScript, Bootstrap, and other relevant technologies.
