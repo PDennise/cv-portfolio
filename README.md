@@ -7,6 +7,20 @@ This is the personal portfolio website of **Deniz Pandar**, a Junior Full Stack 
 
 This portfolio website was built to present web development projects in a **clean, interactive, and accessible way**. Rather than a static list of works, each project is displayed with a live preview and clear context — highlighting the technologies used, the problems addressed, and the role Deniz played in building them. The design emphasizes **usability and user experience** while maintaining a **minimal aesthetic**, allowing the projects themselves to take center stage.
 
+## Project Rationale  
+
+This portfolio was created to **introduce myself as a Junior Full Stack Developer** and demonstrate my technical and design skills in a professional format. It reflects a balance between creativity and functionality, showing not only coding proficiency but also an understanding of layout, typography, and responsive design principles.  
+
+### Key Project Goals  
+- Provide a **well-organized and visually appealing portfolio**  
+- Showcase **front-end development skills**, including HTML, CSS, and responsive design  
+- Allow potential employers, collaborators, or other developers to **explore projects easily**  
+
+### Target Audience  
+- **Employers and recruiters** looking to evaluate web development skills  
+- **Fellow developers or collaborators** interested in projects or partnerships  
+- **Anyone seeking inspiration or examples of clean, responsive portfolio design**
+
 ## Objectives
 The key objectives of this portfolio project are:
 1. To create an organized presentation of personal skills and experience.
