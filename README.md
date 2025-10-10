@@ -21,6 +21,12 @@ This portfolio was created to **introduce myself as a Junior Full Stack Develope
 - **Fellow developers or collaborators** interested in projects or partnerships  
 - **Anyone seeking inspiration or examples of clean, responsive portfolio design**
 
+## Visual Design
+### Wireframes
+You can find the wireframes at the link below:
+https://drive.google.com/drive/folders/1bkjWqt4qddI6FPUSA6QdILT3kJHya7X8?usp=share_link
+
+
 ## Website Structure
 The website is divided into several sections for clarity and easy navigation:
 
