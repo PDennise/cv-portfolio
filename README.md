@@ -21,13 +21,6 @@ This portfolio was created to **introduce myself as a Junior Full Stack Develope
 - **Fellow developers or collaborators** interested in projects or partnerships  
 - **Anyone seeking inspiration or examples of clean, responsive portfolio design**
 
-## Objectives
-The key objectives of this portfolio project are:
-1. To create an organized presentation of personal skills and experience.
-2. To demonstrate proficiency in front-end web development and responsive design.
-3. To provide a platform for potential employers or collaborators to view work samples and get in contact.
-4. To implement **modern web development practices** including semantic HTML, CSS frameworks, and accessibility standards.
-
 ## Website Structure
 The website is divided into several sections for clarity and easy navigation:
 
