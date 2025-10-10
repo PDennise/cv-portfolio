@@ -1,7 +1,5 @@
 # Deniz Pandar Portfolio
 
-![Hero Image](images/hero.jpeg)
-
 ## Project Overview
 This is the personal portfolio website of **Deniz Pandar**, a Junior Full Stack Developer. The main purpose of this project is to provide a **professional online presence** that showcases Deniz’s skills, experiences, and projects in a structured and visually appealing manner.
 
@@ -20,8 +18,6 @@ The website is divided into several sections for clarity and easy navigation:
 1. **Home / Introduction**
 - Provides a short introduction and a welcoming message.
 - Features call-to-action buttons to navigate to portfolio and contact sections.
-
-![About Page](images/about.jpeg)
 
 2. **About Me**
 - Includes personal background, education, and career goals.
@@ -56,7 +52,6 @@ The website is divided into several sections for clarity and easy navigation:
 
 ## How to Access
 The portfolio is publicly accessible online:
-[https://pdennise.github.io/denizpandar_portfolio/](https://pdennise.github.io/denizpandar_portfolio/)
 
 Users can navigate the portfolio using the top menu, explore projects in detail, and contact Deniz through the contact form.
 
