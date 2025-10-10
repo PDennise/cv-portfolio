@@ -89,6 +89,16 @@ The portfolio is publicly accessible online:
 
 Users can navigate the portfolio using the top menu, explore projects in detail, and contact Deniz through the contact form.
 
+# Testing
+### General Testing
+The site has been thoroughly tested to ensure all features work as intended. Navigation between pages is smooth, call-to-action buttons function correctly, and responsive design adapts well to desktops, tablets, and mobile devices.
+Cross-browser testing was conducted on Chrome and Safari, confirming consistent appearance and functionality. Layouts and interactive elements maintain usability across various screen sizes and resolutions.
+
+### Validation
+- HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/)
+- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
+
 ## Learning Outcomes
 By completing this project, Deniz achieved the following:
 - Gained practical experience in front-end web development.
