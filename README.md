@@ -104,6 +104,14 @@ Cross-browser testing was conducted on Chrome and Safari, confirming consistent 
 - Fixed an unclosed <div class="row"> element to ensure proper structure and layout across pages.
 - Removed invalid accept attribute from <form>; now correctly submits via POST to Formspree.
 
+# Deployment
+1. Go to the repository’s Settings tab.
+2. Under Pages, select the main branch as the source.
+3. The page will refresh automatically, showing a confirmation ribbon for successful deployment.
+
+The live link can be found here - https://pdennise.github.io/cv-portfolio/index.html
+
+
 ## Learning Outcomes
 By completing this project, Deniz achieved the following:
 - Gained practical experience in front-end web development.
