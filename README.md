@@ -99,6 +99,11 @@ Cross-browser testing was conducted on Chrome and Safari, confirming consistent 
 - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 - Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
+### Fixed Bugs
+- Corrected an improperly closed <section> tag that was causing HTML validation errors.
+- Fixed an unclosed <div class="row"> element to ensure proper structure and layout across pages.
+- Removed invalid accept attribute from <form>; now correctly submits via POST to Formspree.
+
 ## Learning Outcomes
 By completing this project, Deniz achieved the following:
 - Gained practical experience in front-end web development.
