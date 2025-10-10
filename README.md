@@ -53,13 +53,11 @@ Includes copyright information.
 
 ![about me](/assets/images/about-screenshot.png)
 
-3. **Skills**
-- Lists technical skills including HTML5, CSS3, JavaScript, Bootstrap, and other relevant technologies.
-- Organized in a clean visual format with icons and lists.
-
 4. **Portfolio / Projects**
 - Displays personal and academic projects.
-- Each project includes a description, technologies used, and links to live demos or GitHub repositories.
+- Each project includes links to live demos and a description, technologies used in GitHub repositories.
+
+![portfolio screenshot](/assets/images/portfolio-screenshot.png)
 
 5. **Contact**
 - Contains a contact form for direct messages.
