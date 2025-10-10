@@ -45,6 +45,7 @@ Includes copyright information.
 - Provides a short introduction and a welcoming message.
 - Features call-to-action buttons to navigate to portfolio and contact sections.
 
+![home page](/assets/images/home-page-laptop.png)
 2. **About Me**
 - Includes personal background, education, and career goals.
 - Highlights relevant skills and strengths in web development.
