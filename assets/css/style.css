@@ -101,7 +101,7 @@ a.active::after {
 .btn-custom {
     background-color: #004182;  /* Base background color */
     color: white;               /* Text color */
-    border-color: #004182;      /* Border color matching background */
+    border-color: #004;         /* To make logos visible */
     border-radius: 10px;          /* Rounded corners */
     margin-top: 10px;             /* Space above each button */
     padding: 10px 20px;           /* Button padding (vertical | horizontal) */
@@ -113,7 +113,7 @@ a.active::after {
 .btn-custom:hover {
     background-color: steelblue;    /* Softer blue hover */
     color: white;                   /* Keep text color white */
-    border-color: steelblue;        /* Border color changes with background */
+    border-color: #004;             /* To make logos visible */
 }
 /* Portfolio page specific buttons 
    - Target only .btn-custom inside #portfolio 
@@ -121,7 +121,7 @@ a.active::after {
 #portfolio .btn-custom {
     background-color: #004182;  /* Base blue color */
     color: white;               /* Text color */
-    border-color: #004182;      /* Border color matching background */
+    border-color: #004;         /* To make logos visible */
     border-radius: 10px;          /* Rounded corners */
     padding: 10px 20px;           /* Vertical and horizontal padding */
     transition: background-color 0.3s, color 0.3s;  /* Smooth hover transition */
@@ -131,7 +131,7 @@ a.active::after {
 #portfolio .btn-custom:hover {
     background-color: steelblue;  /* Lighter blue on hover */
     color: white;                 /* Keep text color white */
-    border-color: steelblue;      /* Match border with hover background */
+    border-color: #004;           /* To make logos visible */
 }
 /* Contact page specific buttons 
    - Target only .btn-custom inside #contact 
@@ -139,7 +139,7 @@ a.active::after {
 #portfolio .btn-custom {
     background-color: #004182;  /* Base blue color */
     color: white;               /* Text color */
-    border-color: #004182;      /* Border color matching background */
+    border-color: #004;         /* To make logos visible */
     border-radius: 10px;          /* Rounded corners */
     padding: 10px 20px;           /* Vertical and horizontal padding */
     transition: background-color 0.3s, color 0.3s;  /* Smooth hover transition */
@@ -149,7 +149,7 @@ a.active::after {
 #portfolio .btn-custom:hover {
     background-color: steelblue;  /* Lighter blue on hover */
     color: white;                 /* Keep text color white */
-    border-color: steelblue;      /* Match border with hover background */
+    border-color: #004;           /* To make logos visible */
 }
 /* Contact page specific buttons 
    - Target only .btn-custom inside #contact 
@@ -157,7 +157,7 @@ a.active::after {
 #contact .btn-custom {
     background-color: #004182;  /* Base blue color */
     color: white;               /* Text color */
-    border-color: #004182;      /* Border color matching background */
+    border-color: #004;         /* To make logos visible */
     border-radius: 10px;          /* Rounded corners */
     padding: 10px 20px;           /* Vertical and horizontal padding */
     transition: background-color 0.3s, color 0.3s;  /* Smooth hover transition */
@@ -167,7 +167,7 @@ a.active::after {
 #contact .btn-custom:hover {
     background-color: steelblue;  /* Lighter blue on hover */
     color: white;                 /* Keep text color white */
-    border-color: steelblue;      /* Match border with hover background */
+    border-color: #004;           /* To make logos visible */
 }
 
 /* Profile section spacing */
@@ -264,5 +264,5 @@ ul li {
 @media (max-width: 768px) {
     .skills .skill-logos .logo {
         width: 120px;
-        height: 12
+        height: 12px;
     }}
