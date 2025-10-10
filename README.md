@@ -111,11 +111,17 @@ Cross-browser testing was conducted on Chrome and Safari, confirming consistent 
 
 The live link can be found here - https://pdennise.github.io/cv-portfolio/index.html
 
+# Credits
+### Content
+- Home page text: Google Fonts.
+- Instructions on how to implement form validation on the Sign Up page was taken from: [Specific YouTube Tutorial](https://youtu.be/AAC0QJGaDhw?si=GgXThI845GZXqI1V)
+- Social media icons: [Font Awesome](https://fontawesome.com/)
 
-## Learning Outcomes
-By completing this project, Deniz achieved the following:
-- Gained practical experience in front-end web development.
-- Learned to structure content effectively for user experience.
-- Developed skills in responsive and adaptive web design.
-- Implemented project hosting and version control using GitHub and GitHub Pages.
-- Improved personal branding through online professional presentation.
+### Resources & Assistance
+- README structure and formatting inspired by:
+        - [Horizon Photo Repository](https://github.com/Ri-Dearg/horizon-photo/blob/main/README.md)
+        - [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+        - Additional support and content assistance provided by **ChatGPT (OpenAI)**.
+
+### Media
+- The images used on the portfolio page are from Open Source site.
