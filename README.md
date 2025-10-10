@@ -72,7 +72,7 @@ Includes copyright information.
 
 ## Features
 - **Responsive Design:** Compatible with desktops, tablets, and mobile devices.
-- **Navigation Bar:** Smooth scrolling between sections with fixed top navigation.
+- **Navigation Bar:** Easy-to-use menu for navigating between different pages.
 - **Call-to-Action Buttons:** Highlight important actions such as viewing projects or contacting.
 - **Semantic HTML:** Proper use of HTML5 elements for better accessibility and SEO.
 - **Visual Consistency:** Cohesive color scheme, typography, and spacing for professional appearance.
@@ -80,6 +80,8 @@ Includes copyright information.
 ## Technologies Used
 - **HTML5:** Structuring content semantically.
 - **CSS3 & Bootstrap 5:** Styling and responsive layout design.
+- **Fontawesome & Google Fonts:** Using for icon and styling for fonts.
+- **Favicon:** Using for simplified logo in the browser tab.
 - **GitHub Pages:** Hosting the portfolio online for free.
 
 ## How to Access
